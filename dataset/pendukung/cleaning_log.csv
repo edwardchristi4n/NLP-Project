@@ -1,0 +1,13 @@
+﻿step,name,action,rows_affected,n_rows_after,example_before,example_after
+C1,mojibake,pulihkan karakter asli,348,3184,"'‚Å£‚Å£GOBLOK,ngapain beli indosat ? g ada untungnya, jaringa'","'\u2063\u2063GOBLOK,ngapain beli indosat ? g ada untungnya, jaringan aj'"
+C2,pct_escape,dekode ke karakter asli (umumnya emoji),106,3184,'%u2063Menjadi Atlet Berprestasi itu Mahal !  Dunia Olahraga ','\u2063Menjadi Atlet Berprestasi itu Mahal !  Dunia Olahraga dan d'
+C3,lost_emoji,hapus (spasi bila di tengah kata),267,3184,"'i.. 100%gak percaya,�'","'i.. 100%gak percaya,'"
+C4,invisible,hapus,48,3184,"'\u2063\u2063GOBLOK,ngapain beli indosat ? g ada untungnya, jaringan aj'","'GOBLOK,ngapain beli indosat ? g ada untungnya, jaringan aja '"
+C5,nfc,seragamkan bentuk karakter,0,3184,'',''
+C6,markup,"buang tag HTML, perbaiki entity dan \/",9,3184,"'akan gaji buta 0,5M \\/bln dr PAJAK hsl banting tulang n keri'","'akan gaji buta 0,5M /bln dr PAJAK hsl banting tulang n kerin'"
+C7,url,ganti dengan [URL],2,3184,'hread ane gan: \n\n1. https://kask.us/iCRpK \n\n2. https://kask.','hread ane gan: \n\n1. [URL] \n\n2. [URL] \n\n3. [URL]'
+C8,user,ganti dengan [USER],1,3184,"'@khafidz99 w bisa bilang mereka malah gak nonton itu gan, kl'","'[USER] w bisa bilang mereka malah gak nonton itu gan, klo mi'"
+C9,whitespace,seragamkan menjadi satu spasi,540,3184,'siden RI tahun 2500?\n','siden RI tahun 2500?'
+C10,no_letters,buang baris,5,3179,':(',(dibuang)
+C11,duplicate,buang baris (simpan kemunculan pertama),22,3157,'Manusia yang mukanya lebih ruwet dari sampah alias sampah ma',(dibuang)
+D1,select_domain,tandai in_domain / thread / segment (baris tidak dibuang),1515,3157,utas 1: ANC-1123–ANC-1300; utas 2: ANC-1599–ANC-2007; utas 3: ANC-2243–ANC-3184,1515 teks in_domain
