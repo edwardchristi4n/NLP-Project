@@ -470,6 +470,8 @@ Bedakan dua keadaan ini:
 
 ## 8. Riwayat versi dan keputusan yang perlu dikonfirmasi
 
+### 8.1 Riwayat versi
+
 | Versi | Tanggal | Perubahan |
 |---|---|---|
 | 0.1 | — | Draf awal (9 label abusif/sikap, 7 span). Diganti. |
@@ -477,7 +479,7 @@ Bedakan dua keadaan ini:
 | 0.3 | 4 Okt 2026 | Disusun ulang menjadi 8 bab; alat anotasi Prodigy; tiap label punya definisi, aturan beri/jangan, contoh positif, negatif, dan ambigu; batas `ABUSIVE` diperjelas; `GROUP` dibatasi lima kelompok dan kata inti; aturan tagar dan token menempel; contoh ANC-1188 dikoreksi menjadi sindiran. |
 | 1.0 | — | Dibekukan setelah uji coba 50 komentar dan tinjauan dosen. |
 
-**Keputusan di versi 0.3 yang perlu dikonfirmasi tim dan dosen sebelum uji coba**
+### 8.2 Keputusan versi 0.3 yang perlu dikonfirmasi tim dan dosen sebelum uji coba
 
 | No | Keputusan | Alternatif |
 |---|---|---|
@@ -551,6 +553,8 @@ Alasan: teks tidak bermakna.
 
 ---
 
+<div style="page-break-before: always"></div>
+
 ## Lampiran B. Ringkasan satu halaman
 
 **Urutan kerja:** baca → bisa dipahami? → sorot nama → centang label → cek kombinasi → *flag* bila ragu → Accept.
@@ -578,6 +582,8 @@ Alasan: teks tidak bermakna.
 - Tidak disorot: kata ganti, sapaan, jabatan tanpa nama, tagar slogan, tempat, makian.
 
 ---
+
+<div style="page-break-before: always"></div>
 
 ## Lampiran C. Pengaturan label di Prodigy
 
